@@ -40,6 +40,10 @@
     width: 100%;
 }
 
+#header_b_in .nav ul{
+    width: 100%;
+}
+
 #header_b_in .search{
     display: none;
 }
