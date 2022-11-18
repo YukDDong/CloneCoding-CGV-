@@ -1,0 +1,466 @@
+
+
+
+/* 상단 */
+#header{
+    height: 115px;
+}
+
+#header_top{
+    margin: 0;
+    width: 100%;
+    height: 65px;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+#header_top .logo{
+    float: none;
+    width: 120px;
+    margin: 0 auto;
+}
+
+#header_top .logo p{
+    display: none;
+}
+
+#header_top .group{
+    display: none;
+}
+
+#header_bottom{
+}
+
+#header_b_in{
+    width: 100%;
+    padding: 10px;
+}
+
+#header_b_in .nav{
+    width: 100%;
+}
+
+#header_b_in .search{
+    display: none;
+}
+
+
+
+
+/* 스크롤할때 생길 네비버튼 */
+#nav_scroll{
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+#nav_scroll_in{
+    width: 100%;
+    padding-left: 5px;
+    justify-content: space-around;
+}
+
+#nav_scroll_in .logoWhite{
+    width: 80px;
+    line-height: 70px;
+}
+
+#nav_scroll_in .logoWhite img{
+    width: 80px;
+}
+
+#nav_scroll_in .nav{
+    width: 60%;
+}
+
+#nav_scroll_in .nav ul{
+    width: 100%;
+}
+
+#nav_scroll .search{
+    display: none;
+}
+
+/* 메인 */
+
+
+
+
+
+/* 컨텐츠 */
+#contents{
+    height: auto;
+}
+
+
+
+/* 무비차트 */
+#chart{
+    background: none;
+    height: auto;
+    border-bottom: 5px solid #ccc;
+}
+
+#chart_in{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#chart .chart_h{
+    width: 200px;
+}
+
+#chart .chart_h li{
+    width: 100px;
+    height: 20px;
+}
+
+#chart .chart_h h3{
+    font-size: 18px;
+}
+
+#chart .chart_btn{
+    border: none;
+}
+
+#chart .chart_b_in{
+    width: 100%;
+}
+
+#chart .L_btn, .R_btn{
+    display: none;
+}
+
+
+
+
+
+
+
+/* 이벤트 */
+#event{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 20px;
+    border-bottom: 5px solid #ccc;
+}
+
+#event .event_h{
+}
+
+#event .event_h h3{
+    font-size: 18px;
+}
+
+#event .pause{
+    display: none;
+}
+
+#event .btn_group .all{
+    height: auto;
+    border: none;
+}
+
+#event .event_b{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+#event .event_b li{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+#event .event_b a{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#event .event_b img{
+    width: 100%;
+    height: auto;
+}
+
+#event .event_b h4{
+    margin-bottom: 10px;
+}
+
+#event .event_b p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+/* 특별관 */
+#spe{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid #ccc;
+}
+
+
+#spe .spe_top{
+    height: 18px;
+}
+
+
+#spe .spe_h h3{
+    font-size: 18px;
+}
+
+#spe .spe_btn{
+    height: auto;
+    border: none; 
+}
+
+#spe .img_box{
+    width: 100%;
+    height: auto;
+}
+
+#spe .img_box img{
+    width: 100%;
+    height: auto;
+}
+
+#spe .list{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+/* 구매 */
+#perchase{
+    margin: 0;
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-bottom: 5px solid #ccc;
+}
+
+#perchase .box{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    padding-bottom: 25px;
+}
+
+#perchase h4{
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#perchase ul{
+    flex-direction: row;
+    height: auto;
+}
+
+
+#perchase li{
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+
+#perchase li>a{
+    height: auto;
+    display: block;
+    align-items: none;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 120px;
+}
+
+#perchase .ticket li:nth-child(1) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .ticket li:nth-child(2) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .ticket li:nth-child(3) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .paconnie li:nth-child(1) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .paconnie li:nth-child(2) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .paconnie li:nth-child(3) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .combo li:nth-child(1) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .combo li:nth-child(2) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+#perchase .combo li:nth-child(3) a{
+    background-size: 100%;
+    background-position: top;
+}
+
+
+
+
+
+
+
+
+
+/* 고객센터 */
+#customer{
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #ccc;
+}
+
+#customer .cus_l{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+#customer .left{
+    float: none;
+    width: 100%;
+    height: auto;
+}
+
+#customer .left_top p{
+    width: 60%;
+    height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#customer .left_bottom{
+    height: auto;
+}
+
+#customer .left>a{
+    margin-bottom: 25px;
+}
+
+#customer .right{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+#customer .cus_r{
+    display: none;
+}
+
+
+
+
+
+
+/* 하단 */
+#footer{
+    height: auto;
+}
+
+#footer_in{
+    width: 100%;
+    height: auto;
+}
+
+#footer_in ul{
+    justify-content: center;
+}
+
+#footer_in ul>li{
+    display: none;
+}
+
+#footer_in ul .in480{
+    display: block;
+}
+
+#footer_in>div{
+    width: 100%;
+    height: auto;
+    position: unset;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#footer_in .address{
+    margin-bottom: 10px;
+}
+
+#footer_in>div .info{
+    display: none;
+}
+
+#footer_in>div .info_m{
+    display: block;
+    margin-bottom: 10px;
+}
+
+#footer_in .btn_box{
+    width: 220px;
+    height: 35px;
+    position: unset;
+}
