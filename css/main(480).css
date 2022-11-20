@@ -60,6 +60,7 @@
 #nav_scroll_in{
     width: 100%;
     padding-left: 5px;
+    box-sizing: border-box;
     justify-content: space-around;
 }
 
@@ -130,6 +131,7 @@
 
 #chart .chart_b_in{
     width: 100%;
+    overflow-x: auto;
 }
 
 #chart .L_btn, .R_btn{
@@ -302,7 +304,8 @@
     align-items: none;
     text-align: center;
     padding-left: 0;
-    padding-top: 120px;
+    padding-top: 100px;
+    font-size: 12px;
 }
 
 #perchase .ticket li:nth-child(1) a{
@@ -383,12 +386,17 @@
     height: auto;
 }
 
+
 #customer .left_top p{
     width: 60%;
     height: 16px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+#customer .left_top a{
+    width: 15%;
 }
 
 #customer .left_bottom{
@@ -442,12 +450,14 @@
     display: block;
 }
 
+
 #footer_in>div{
     width: 100%;
     height: auto;
     position: unset;
     padding-left: 10px;
     padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 #footer_in .address{
